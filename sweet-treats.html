@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Treats | KP's Creation</title><link rel="stylesheet" href="styles.css">
+  <style>
+    .detail-hero{padding:70px 8%;background:linear-gradient(120deg,#fff3f4,#f4dfe5);display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:35px}
+    .detail-hero h1{font-family:"Playfair Display",serif;color:#552034;font-size:clamp(2.8rem,5vw,4.8rem);line-height:1.1;margin:15px 0}
+    .detail-hero p{color:#766b70;line-height:1.8;max-width:520px}
+    .detail-art{min-height:280px;display:grid;place-items:center;font-size:8rem;background:#f8e6e9;border:1px solid #edcfd7;border-radius:50%;max-width:340px;width:100%;aspect-ratio:1;margin:auto;box-shadow:inset 0 0 0 15px #fff7f5}
+    .detail-items{padding:65px 8%}.detail-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.detail-card{background:white;border:1px solid #eadde0;padding:25px}.detail-card .emoji{font-size:2.7rem}.detail-card h3{font-family:"Playfair Display",serif;margin:10px 0 5px}.detail-card p{font-size:.83rem;color:#766b70}.detail-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+    .back-link{display:inline-block;margin-bottom:15px;color:#7d2945;font-weight:700;font-size:.82rem}
+    @media(max-width:700px){.detail-hero{grid-template-columns:1fr;padding:45px 6%}.detail-art{max-width:220px;min-height:220px;font-size:5.5rem}.detail-items{padding:45px 6%}.detail-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="announcement">A little sweetness goes a long way ✦</div>
+  <header class="site-header"><a class="brand" href="index.html#home"><span class="brand-mark">KP<span>✦</span></span><span class="brand-name">KP's Creation<small>PASTRIES • CATERING • CELEBRATIONS</small></span></a><a class="nav-cta" href="index.html#booking">Book an order ↗</a></header>
+  <main>
+    <section class="detail-hero"><div><a class="back-link" href="index.html#menu">← Back to our menu</a><span class="eyebrow">SOMETHING SWEET</span><h1>Sweet treats,<br><em>made with love.</em></h1><p>Make an ordinary day feel special with a custom sweet treat from KP's Creation. Explore ideas below, then send us your request so we can discuss flavours, designs, quantities and pricing.</p><div class="detail-actions"><a class="button button-primary" href="index.html#booking">Request an order ↗</a><a class="button button-light" href="index.html#feedback">Leave feedback</a></div></div><div class="detail-art">🧁🍓</div></section>
+    <section class="detail-items"><span class="eyebrow">A FEW IDEAS TO GET YOU STARTED</span><h2 style="font-family:'Playfair Display',serif;color:#552034;font-size:2.6rem;margin:12px 0 28px">Pick your kind of <em style="color:#7d2945">happy.</em></h2><div class="detail-grid">
+      <article class="detail-card"><span class="emoji">🧁</span><h3>Cupcakes</h3><p>Ask about flavours, frosting colours, themed decorations and party quantities.</p></article>
+      <article class="detail-card"><span class="emoji">🎂</span><h3>Custom cakes</h3><p>Share your occasion, preferred design, serving size and inspiration.</p></article>
+      <article class="detail-card"><span class="emoji">🍪</span><h3>Cookies & bites</h3><p>Sweet little treats for gift boxes, celebrations or sharing with friends.</p></article>
+      <article class="detail-card"><span class="emoji">🍓</span><h3>Dessert tables</h3><p>Ask about a coordinated sweet spread for your special event.</p></article>
+      <article class="detail-card"><span class="emoji">🎁</span><h3>Gift boxes</h3><p>Discuss a thoughtful assortment for birthdays, thank-yous or surprises.</p></article>
+      <article class="detail-card"><span class="emoji">✨</span><h3>Your own idea</h3><p>Have something different in mind? Tell us what you're imagining.</p></article>
+    </div><p class="menu-disclaimer">These are example categories, not a confirmed menu. Availability and prices must be confirmed with KP's Creation.</p><div class="detail-actions"><a class="button button-primary" href="index.html#booking">Book sweet treats ↗</a><a class="button button-light" href="index.html#menu">Back to main menu</a></div></section>
+  </main>
+  <footer class="footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark">KP<span>✦</span></span><span class="brand-name">KP's Creation<small>MADE WITH LOVE</small></span></a><p>Sweet treats. Thoughtful catering. Moments worth celebrating.</p><small>© <span id="year"></span> KP's Creation</small></footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
